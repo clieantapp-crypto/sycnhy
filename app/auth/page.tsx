@@ -4,7 +4,6 @@ import { ArrowRight, ChevronDown, Globe, Menu, QrCode } from "lucide-react"
 import { useState, useEffect } from "react"
 
 import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
 export default function KuwaitMobileID() {
   const [language, setLanguage] = useState("English")
